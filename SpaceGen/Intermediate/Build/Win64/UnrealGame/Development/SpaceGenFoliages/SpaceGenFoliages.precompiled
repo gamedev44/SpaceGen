@@ -1,0 +1,17 @@
+{
+	"OutputFiles": [
+		"FoliagesSector.gen.cpp.obj",
+		"WorldScapeFoliages.init.gen.cpp.obj",
+		"WorldScapeFoliagesAsset.gen.cpp.obj",
+		"WorldScapeFoliagesBlueprint.gen.cpp.obj",
+		"WorldScapeFoliagesCluster.gen.cpp.obj",
+		"WorldScapeFoliagesClusterUnit.gen.cpp.obj",
+		"WorldScapeFoliagesCollection.gen.cpp.obj",
+		"WorldScapeFoliagesCollectionData.gen.cpp.obj",
+		"WorldScapeFoliagesContraint.gen.cpp.obj",
+		"WorldScapeFoliagesInterface.gen.cpp.obj",
+		"WorldScapeFoliagesInterfaceData.gen.cpp.obj",
+		"FoliagesSector.cpp.obj",
+		"WorldScapeFoliages.cpp.obj"
+	]
+}

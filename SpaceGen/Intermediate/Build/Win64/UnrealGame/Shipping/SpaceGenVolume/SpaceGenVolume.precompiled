@@ -1,0 +1,24 @@
+{
+	"OutputFiles": [
+		"FoliageMaskVolume.gen.cpp.obj",
+		"FoliageMaskVolumeData.gen.cpp.obj",
+		"HeightMapVolume.gen.cpp.obj",
+		"HeightMapVolumeData.gen.cpp.obj",
+		"HeightMapVolumeDataCopy.gen.cpp.obj",
+		"NoiseVolume.gen.cpp.obj",
+		"NoiseVolumeData.gen.cpp.obj",
+		"TerrainHoleVolume.gen.cpp.obj",
+		"TerrainHoleVolumeData.gen.cpp.obj",
+		"VolumeInterface.gen.cpp.obj",
+		"WorldScapeVolume.init.gen.cpp.obj",
+		"FoliageMaskVolume.cpp.obj",
+		"HeightMapVolume.cpp.obj",
+		"HeightMapVolumeData.cpp.obj",
+		"HeightMapVolumeDataCopy.cpp.obj",
+		"NoiseVolume.cpp.obj",
+		"NoiseVolumeData.cpp.obj",
+		"TerrainHoleVolume.cpp.obj",
+		"VolumeInterface.cpp.obj",
+		"WorldScapeVolume.cpp.obj"
+	]
+}

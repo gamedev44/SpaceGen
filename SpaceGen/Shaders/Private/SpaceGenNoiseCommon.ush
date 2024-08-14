@@ -1,0 +1,28 @@
+#pragma once
+
+#include "/Engine/Public/Platform.ush"
+
+
+struct FNoiseData
+{
+	float NormalizedHeight;
+	float Height;
+	float Temperature;
+	float Humidity;
+	float WaterMask;
+	float FoliageMask;
+	bool Hole;
+};
+
+FNoiseData MakeFNoiseData()
+{
+	FNoiseData Data;
+	Data.NormalizedHeight = 0;
+	Data.Height = 0;
+	Data.Temperature = 0;
+	Data.Humidity = 0;
+	Data.WaterMask = 0;
+	Data.FoliageMask = 0;
+	Data.Hole = false;
+	return Data;
+}

@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-WorldScapeEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj"
+"..\Plugins\Marketplace\WorldScape\Intermediate\Build\Win64\x64\UnrealEditor\Development\WorldScapeEditor\PCUtils.cpp.obj"
+"..\Plugins\Marketplace\WorldScape\Intermediate\Build\Win64\x64\UnrealEditor\Development\WorldScapeEditor\WorldScapeEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Marketplace\WorldScape\Intermediate\Build\Win64\x64\UnrealEditor\Development\WorldScapeEditor\UnrealEditor-WorldScapeEditor.lib"

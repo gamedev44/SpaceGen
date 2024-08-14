@@ -1,0 +1,127 @@
+{
+	"FileVersion": 1,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "SpaceGen",
+	"Description": "Generate expansive planetary surfaces or infinite flat terrains using advanced geometry clipmaps. Designed for seamless integration in space simulation environments.",
+	"Category": "Terrain",
+	"CreatedBy": "PGD",
+	"CreatedByURL": "pgd-developments.w3spaces.com",
+	"DocsURL": "https://pgd-developments.w3spaces.com/index1.html#",
+	"MarketplaceURL": "https://pgd-developments.w3spaces.com/index1.html#",
+	"SupportURL": "https://itch.io/",
+	"EngineVersion": "5.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SpaceGenCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"Mac",
+				"IOS",
+				"Android"
+			]
+		},
+		{
+			"Name": "SpaceGenEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"Mac",
+				"IOS",
+				"Android"
+			]
+		},
+		{
+			"Name": "SpaceGenFactory",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"Mac",
+				"IOS",
+				"Android"
+			]
+		},
+		{
+			"Name": "SpaceGenNoise",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"Mac",
+				"IOS",
+				"Android"
+			]
+		},
+		{
+			"Name": "SpaceGenCommon",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"Mac",
+				"IOS",
+				"Android"
+			]
+		},
+		{
+			"Name": "SpaceGenFoliages",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"Mac",
+				"IOS",
+				"Android"
+			]
+		},
+		{
+			"Name": "SpaceGenVolume",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"Mac",
+				"IOS",
+				"Android"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "Water",
+			"Enabled": true
+		},
+		{
+			"Name": "Volumetrics",
+			"Enabled": true
+		}
+	]
+}

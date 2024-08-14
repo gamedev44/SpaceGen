@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGenvolume\\private\\heightmapvolumedatacopy.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\dev\\ue-5.3.0\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\SpaceGenvolume\\definitions.SpaceGenvolume.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGenvolume\\public\\heightmapvolumedatacopy.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGencommon\\public\\doubleprecisionutils.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\unrealeditor\\inc\\SpaceGencommon\\uht\\doubleprecisionutils.generated.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGencommon\\public\\noisemathutils.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGenvolume\\public\\heightmapvolumedata.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\unrealeditor\\inc\\SpaceGenvolume\\uht\\heightmapvolumedata.generated.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\unrealeditor\\inc\\SpaceGenvolume\\uht\\heightmapvolumedatacopy.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

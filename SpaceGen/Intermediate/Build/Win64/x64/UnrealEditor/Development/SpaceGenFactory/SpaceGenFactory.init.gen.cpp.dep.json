@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\unrealeditor\\inc\\SpaceGenfactory\\uht\\SpaceGenfactory.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\dev\\ue-5.3.0\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\SpaceGenfactory\\definitions.SpaceGenfactory.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

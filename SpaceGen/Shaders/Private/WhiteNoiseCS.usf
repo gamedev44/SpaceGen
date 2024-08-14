@@ -1,0 +1,91 @@
+#pragma once
+
+#include "/Engine/Public/Platform.ush"
+#include "WorldScapeNoiseCommon.ush"
+
+
+
+RWStructuredBuffer<float> OutNormalizedHeight;
+RWStructuredBuffer<float> OutHeight;
+RWStructuredBuffer<float> OutTemperature;
+RWStructuredBuffer<float> OutHumidity;
+RWStructuredBuffer<float> OutWaterMask;
+RWStructuredBuffer<float> OutFoliageMask;
+RWStructuredBuffer<float> OutHole;
+
+RWStructuredBuffer<float> ActualNormalizedHeight;
+RWStructuredBuffer<float> ActualHeight;
+RWStructuredBuffer<float> ActualTemperature;
+RWStructuredBuffer<float> ActualHumidity;
+RWStructuredBuffer<float> ActualWaterMask;
+RWStructuredBuffer<float> ActualFoliageMask;
+RWStructuredBuffer<float> ActualHole;
+
+RWStructuredBuffer<float3> SampledPosition;
+
+uint Seed;
+float3 PlanetPosition;
+float3 PositionOffset;
+float NoiseScale;
+float NoiseIntensity;
+float PlanetScale;
+float FlatWorld;
+float Latitude;
+float UsePlanetary;
+
+uint Width;
+
+
+float hash12(float2 p)
+{
+    float3 p3 = frac(float3(p.xyx) * .1031);
+    p3 += dot(p3, p3.yzx + 33.33);
+    return frac((p3.x + p3.y) * p3.z);
+}
+
+
+
+FNoiseData GetHeight(float3 Position, FNoiseData ActualData)
+{
+	FNoiseData Data = MakeFNoiseData();
+	float2 p = float2(Position.xy);
+	Data.NormalizedHeight = frac(p);//hash12(p);
+
+
+	return Data;
+}
+
+[numthreads(THREADGROUPSIZE_X, THREADGROUPSIZE_Y, THREADGROUPSIZE_Z)]
+void MainComputeShader(uint3 Gid : SV_GroupID, //atm: -, 0...256, - in rows (Y)        --> current group index (dispatched by c++)
+                       uint3 DTid : SV_DispatchThreadID, //atm: 0...256 in rows & columns (XY)   --> "global" thread id
+                       uint3 GTid : SV_GroupThreadID, //atm: 0...256, -,- in columns (X)      --> current threadId in group / "local" threadId
+                       uint GI : SV_GroupIndex)            //atm: 0...256 in columns (X)           --> "flattened" index of a thread within a group)
+{
+
+	FNoiseData ActualData;
+	uint index = DTid.x;
+	ActualData.NormalizedHeight = ActualNormalizedHeight[index];
+	ActualData.Height = ActualHeight[index];
+	ActualData.Temperature = ActualTemperature[index];
+	ActualData.Humidity = ActualHumidity[index];
+	ActualData.WaterMask = ActualWaterMask[index];
+	ActualData.FoliageMask = ActualFoliageMask[index];
+	ActualData.Hole = ActualHole[index];
+
+	float3 Position = SampledPosition[index] + PositionOffset;
+	FNoiseData Data = GetHeight(Position,ActualData);
+
+
+
+
+	
+	Data.Height = Data.NormalizedHeight * NoiseIntensity;
+	
+	OutNormalizedHeight[index] = Data.NormalizedHeight;
+	OutHeight[index] = Data.Height;
+	OutTemperature[index] = Data.Temperature;
+	OutHumidity[index] = Data.Humidity;
+	OutWaterMask[index] = Data.WaterMask;
+	OutFoliageMask[index] = Data.FoliageMask;
+	OutHole[index] = Data.Hole;
+}

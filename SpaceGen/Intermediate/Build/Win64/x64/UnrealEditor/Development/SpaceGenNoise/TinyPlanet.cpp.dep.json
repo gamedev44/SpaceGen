@@ -1,0 +1,24 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGennoise\\private\\tinyplanet.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\dev\\ue-5.3.0\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\SpaceGennoise\\definitions.SpaceGennoise.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGennoise\\public\\tinyplanet.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGennoise\\public\\customnoise.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGencommon\\public\\doubleprecisionutils.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\unrealeditor\\inc\\SpaceGencommon\\uht\\doubleprecisionutils.generated.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\array",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGennoise\\public\\noisedata.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGencommon\\public\\noisemathutils.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\unrealeditor\\inc\\SpaceGennoise\\uht\\noisedata.generated.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGennoise\\public\\SpaceGennoiseclass.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\unrealeditor\\inc\\SpaceGennoise\\uht\\SpaceGennoiseclass.generated.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\unrealeditor\\inc\\SpaceGennoise\\uht\\tinyplanet.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

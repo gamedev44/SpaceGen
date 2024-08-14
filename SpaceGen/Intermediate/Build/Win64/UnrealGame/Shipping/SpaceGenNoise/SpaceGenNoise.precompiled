@@ -1,0 +1,25 @@
+{
+	"OutputFiles": [
+		"CubeNoise.gen.cpp.obj",
+		"IceWorld.gen.cpp.obj",
+		"NoiseData.gen.cpp.obj",
+		"PlanetTerraNoise.gen.cpp.obj",
+		"Selenae.gen.cpp.obj",
+		"TinyPlanet.gen.cpp.obj",
+		"WarpedNoise.gen.cpp.obj",
+		"WorldScapeNoise.init.gen.cpp.obj",
+		"WorldScapeNoiseClass.gen.cpp.obj",
+		"YourOwnNoiseExample.gen.cpp.obj",
+		"CubeNoise.cpp.obj",
+		"CustomNoise.cpp.obj",
+		"IceWorld.cpp.obj",
+		"NoiseData.cpp.obj",
+		"PlanetTerraNoise.cpp.obj",
+		"Selenae.cpp.obj",
+		"TinyPlanet.cpp.obj",
+		"WarpedNoise.cpp.obj",
+		"WorldScapeNoise.cpp.obj",
+		"WorldScapeNoiseClass.cpp.obj",
+		"YourOwnNoiseExample.cpp.obj"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"OutputFiles": [
+		"DoublePrecisionUtils.gen.cpp.obj",
+		"PoissonDiscSampling.gen.cpp.obj",
+		"WorldScapeCommon.init.gen.cpp.obj",
+		"DoublePrecisionUtils.cpp.obj",
+		"NoiseMathUtils.cpp.obj",
+		"PoissonDiscSampling.cpp.obj",
+		"StopWatch.cpp.obj",
+		"WorldScapeCommon.cpp.obj",
+		"WorldScapeHelper.cpp.obj"
+	]
+}

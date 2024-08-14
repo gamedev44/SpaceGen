@@ -1,0 +1,22 @@
+{
+	"OutputFiles": [
+		"LodData.gen.cpp.obj",
+		"MaterialLod.gen.cpp.obj",
+		"WorldScapeCore.init.gen.cpp.obj",
+		"WorldScapeLod.gen.cpp.obj",
+		"WorldScapeMeshComponent.gen.cpp.obj",
+		"WorldScapeRoot.gen.cpp.obj",
+		"LodData.cpp.obj",
+		"WorldScapeCore.cpp.obj",
+		"WorldScapeLod.cpp.obj",
+		"WorldScapeMeshComponent.cpp.obj",
+		"WorldScapeRoot_Collision.cpp.obj",
+		"WorldScapeRoot_Foliages.cpp.obj",
+		"WorldScapeRoot_Helper.cpp.obj",
+		"WorldScapeRoot_Main.cpp.obj",
+		"WorldScapeRoot_Noise.cpp.obj",
+		"WorldScapeRoot_Thread.cpp.obj",
+		"WorldScapeSceneProxy.cpp.obj",
+		"WorldScapeWorldType.cpp.obj"
+	]
+}

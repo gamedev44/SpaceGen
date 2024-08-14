@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGenfactory\\private\\hideditortoolbar.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\dev\\ue-5.3.0\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\SpaceGenfactory\\definitions.SpaceGenfactory.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGenfactory\\public\\hideditortoolbar.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGenfactory\\public\\hideditor.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGenvolume\\public\\heightmapvolumedata.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGencommon\\public\\doubleprecisionutils.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\unrealeditor\\inc\\SpaceGencommon\\uht\\doubleprecisionutils.generated.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\unrealeditor\\inc\\SpaceGenvolume\\uht\\heightmapvolumedata.generated.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGenfactory\\public\\ihideditor.h",
+            "c:\\dev\\ue-5.3.0\\engine\\source\\editor\\leveleditor\\public\\leveleditoractions.h",
+            "c:\\dev\\ue-5.3.0\\engine\\source\\editor\\unrealed\\classes\\texaligner\\texaligner.h",
+            "c:\\dev\\ue-5.3.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\texaligner.generated.h",
+            "c:\\dev\\ue-5.3.0\\engine\\source\\editor\\leveleditor\\public\\lightmapresratioadjust.h",
+            "c:\\dev\\ue-5.3.0\\engine\\source\\runtime\\engine\\public\\elements\\interfaces\\typedelementworldinterface.h",
+            "c:\\dev\\ue-5.3.0\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\interfaces\\typedelementselectioninterface.h",
+            "c:\\dev\\ue-5.3.0\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementlistproxy.h",
+            "c:\\dev\\ue-5.3.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementframework\\uht\\typedelementlistproxy.generated.h",
+            "c:\\dev\\ue-5.3.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementruntime\\uht\\typedelementselectioninterface.generated.h",
+            "c:\\dev\\ue-5.3.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\typedelementworldinterface.generated.h",
+            "c:\\dev\\ue-5.3.0\\engine\\source\\editor\\unrealed\\public\\sourcecodenavigation.h",
+            "c:\\dev\\ue-5.3.0\\engine\\source\\editor\\editorstyle\\public\\editorstyleset.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGenfactory\\public\\hideditorcommands.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\unrealeditor\\inc\\SpaceGencore\\uht\\SpaceGenmeshcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\dev\\ue-5.3.0\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\SpaceGencore\\definitions.SpaceGencore.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\source\\SpaceGencore\\public\\SpaceGenmeshcomponent.h",
+            "c:\\dev\\ue-5.3.0\\engine\\source\\runtime\\engine\\classes\\physicsengine\\convexelem.h",
+            "c:\\dev\\ue-5.3.0\\engine\\source\\runtime\\engine\\classes\\physicsengine\\shapeelem.h",
+            "c:\\dev\\ue-5.3.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapeelem.generated.h",
+            "c:\\dev\\ue-5.3.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\convexelem.generated.h",
+            "c:\\dev\\ue-5.3.0\\engine\\plugins\\marketplace\\SpaceGen\\intermediate\\build\\win64\\unrealeditor\\inc\\SpaceGencore\\uht\\SpaceGenmeshcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

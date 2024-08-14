@@ -1,0 +1,42 @@
+#pragma once
+
+#include "/Engine/Public/Platform.ush"
+#include "WorldScapeNoiseCommon.ush"
+
+
+
+
+
+void MainComputeShader(uint3 Gid : SV_GroupID, //atm: -, 0...256, - in rows (Y)        --> current group index (dispatched by c++)
+                       uint3 DTid : SV_DispatchThreadID, //atm: 0...256 in rows & columns (XY)   --> "global" thread id
+                       uint3 GTid : SV_GroupThreadID, //atm: 0...256, -,- in columns (X)      --> current threadId in group / "local" threadId
+                       uint GI : SV_GroupIndex)            //atm: 0...256 in columns (X)           --> "flattened" index of a thread within a group)
+{
+
+	FNoiseData ActualData;
+	uint index = DTid.x;
+	ActualData.NormalizedHeight = ActualNormalizedHeight[index];
+	ActualData.Height = ActualHeight[index];
+	ActualData.Temperature = ActualTemperature[index];
+	ActualData.Humidity = ActualHumidity[index];
+	ActualData.WaterMask = ActualWaterMask[index];
+	ActualData.FoliageMask = ActualFoliageMask[index];
+	ActualData.Hole = ActualHole[index];
+
+	float3 Position = SampledPosition[index] + PositionOffset;
+	FNoiseData Data = GetHeight(Position,ActualData);
+
+
+
+
+	
+	Data.Height = Data.NormalizedHeight * NoiseIntensity;
+	
+	OutNormalizedHeight[index] = Data.NormalizedHeight;
+	OutHeight[index] = Data.Height;
+	OutTemperature[index] = Data.Temperature;
+	OutHumidity[index] = Data.Humidity;
+	OutWaterMask[index] = Data.WaterMask;
+	OutFoliageMask[index] = Data.FoliageMask;
+	OutHole[index] = Data.Hole;
+}
