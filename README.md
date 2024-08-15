@@ -49,7 +49,11 @@ To start using SpaceGen in your project:
 
 ### Documentation
 
-For detailed documentation, please visit our [Docs](https://pgd-developments.w3spaces.com/SG_Docs.html#).
+For detailed documentation, please visit our [Docs](https://pgd-developments.w3spaces.com/SpaceGen/Docs/SpaceGenDocumentation.html).
+
+
+[See a Simplified Version of This in Browser](https://pgd-developments.w3spaces.com/SpaceGen/SpaceGen_BasicConceptWebVersion.html)
+
 
 ## Contributing
 
